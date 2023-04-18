@@ -26,5 +26,7 @@ public class Main {
             System.out.println(content);
         }
         cd1.readData();
+        cd1.toString();
+
     }
 }

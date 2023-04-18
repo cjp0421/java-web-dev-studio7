@@ -52,6 +52,7 @@ public CD(String name, double capacity, ArrayList<String> contents, String aBand
         return bandname;
     }
 
+
     // TODO: Implement your custom interface.
 
     // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones

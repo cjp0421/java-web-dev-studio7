@@ -11,7 +11,7 @@ public abstract class Disk {
     ArrayList<String> contents;
 
 
-    String diskType = this.getClass().toString();
+    String diskType = String.valueOf(this.getClass());
 
 
     public Disk(String name, double capacity, ArrayList<String> contents){
@@ -32,7 +32,8 @@ public abstract class Disk {
 
     @Override
     public String toString() {
-        return "Name: " + this.name;
+        System.out.println("Name: " + this.name + "Class: " + this.diskType);
+        return null;
     }
 
 }
